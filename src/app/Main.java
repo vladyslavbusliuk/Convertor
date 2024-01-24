@@ -24,12 +24,11 @@ public class Main {
     public static double kilometersToMiles(double kilometers) {
         return kilometers / 1.60934;
     }
-
-    // Метод для виведення результату в консоль
     public static void printResult(double value, String fromUnit, String toUnit) {
         System.out.println(value + " " + fromUnit + " = " + milesToKilometers(value) + " " + toUnit);
     }
 }
+
 
 
 
