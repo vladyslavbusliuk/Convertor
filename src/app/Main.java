@@ -17,7 +17,9 @@ public class Main {
 
         scanner.close();
     }
-
+    public static double milesToKilometers(double miles) {
+        return miles * 1.60934;
+    }
 
 
 
